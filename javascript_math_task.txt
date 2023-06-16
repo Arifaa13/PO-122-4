@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Math</h1>
+
+
+<p id="task"></p>
+<p id="addition"></p>
+<p id="random"></p>
+<p id="max"></p>
+<p id="min"></p>
+<p id="boolean"></p>
+<p id="sin"></p>
+<p id="log"></p>
+<p id="round"></p>
+<script>
+let text = "Write Your Name";
+a = 125;
+b = 47;
+c = a + b;
+
+document.getElementById("task").innerHTML = text;
+document.getElementById("addition").innerHTML =
+"The value of c is: " + c;
+document.getElementById("random").innerHTML =
+Math.floor(Math.random() * 100) + 1;
+document.getElementById("max").innerHTML =
+Math.max(3874093, 48980348, 30948984, 223948, -8498594, -4878574800);
+document.getElementById("min").innerHTML =
+Math.min(3874093, 48980348, 30948984, 223948, -8498594, -4878574800);
+let x = 5;
+document.getElementById("boolean").innerHTML = Boolean(x);
+document.getElementById("sin").innerHTML = 
+Math.sin(90 * Math.PI / 180);
+document.getElementById("log").innerHTML = Math.log(1);
+document.getElementById("round").innerHTML = Math.round(8.6);
+
+</script>
+
+</body>
+</html>
